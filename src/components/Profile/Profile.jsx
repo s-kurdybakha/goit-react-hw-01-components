@@ -1,7 +1,15 @@
 import css from '../Profile/Profile.module.css';
 
-const Profile = props => {
-  const { user, usertag, location, userPhoto, followers, views, likes } = props;
+function Profile({
+  user,
+  usertag,
+  location,
+  userPhoto,
+  followers,
+  views,
+  likes,
+}) {
+  // const { user, usertag, location, userPhoto, followers, views, likes } = props;
   return (
     <div className="profile">
       <div className={css.description}>
@@ -27,6 +35,6 @@ const Profile = props => {
       </ul>
     </div>
   );
-};
+}
 
 export default Profile;
