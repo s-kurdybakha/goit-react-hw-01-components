@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: white;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 7px grey;
+  border-radius: 25px;
+  padding: 1px;
+}
+
+.statusGreen {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+  margin: 0 20px;
+}
+
+.statusRed {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 0 20px;
+}
+
+.avatar {
+  background-color: rgb(227, 227, 191);
+  margin-right: 20px;
+  border-radius: 10px;
+}

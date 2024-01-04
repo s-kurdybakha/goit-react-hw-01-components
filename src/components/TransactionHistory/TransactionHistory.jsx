@@ -1,4 +1,4 @@
-import css from '../TransactionHistory/TransactionHistory';
+import css from '../../components/TransactionHistory/TransactionHistory.module.css';
 
 function TransactionHistory({ items }) {
   return (

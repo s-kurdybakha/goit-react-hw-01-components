@@ -11,14 +11,13 @@ import transactions from '../data/transactions';
 export const App = () => {
   return (
     <div
-    // style={{
-    //   height: '100vh',
-    //   display: 'flex',
-    //   justifyContent: 'center',
-    //   alignItems: 'center',
-    //   fontSize: 40,
-    //   color: '#010101'
-    // }}
+      style={{
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontSize: 20,
+        // color: '#010101',
+        backgroundColor: '#e7ecf2',
+      }}
     >
       <Profile
         user={user.username}
@@ -33,7 +32,7 @@ export const App = () => {
       {/* <Statistics stats={data} /> */}
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
-      React homework template sdsd
+      React homework template goit-react-hw-01-components
     </div>
   );
 };

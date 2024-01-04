@@ -1,15 +1,20 @@
 import css from '../Statistics/Statistics.module.css';
+import { getRandomHexColor } from '../../index';
 
-function Statistics({ stats }) {
+function Statistics({ title, stats }) {
   return (
-    <section className="statistics">
-      <h2 className="title">Upload stats</h2>
+    <section className={css.statistics}>
+      {title && <h2 className={css.title}>{title}</h2>}
 
       <ul className={css.statList}>
         {stats.map(stat => (
-          <li key={stat.id} className={css.item}>
-            <span className="label">{stat.label} </span>
-            <span className="percentage">{stat.percentage}%</span>
+          <li
+            style={{ backgroundColor: getRandomHexColor() }}
+            key={stat.id}
+            className={css.item}
+          >
+            <span className={css.label}>{stat.label} </span>
+            <span className={css.percentage}>{stat.percentage}%</span>
           </li>
         ))}
       </ul>

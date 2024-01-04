@@ -1,4 +1,11 @@
+.profile {
+  width: 300px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
 .description {
+  background-color: white;
   text-align: center;
   padding: 40px;
 }
@@ -28,4 +35,27 @@
 .stats {
   display: flex;
   list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.items {
+  width: 98px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  justify-content: center;
+  background-color: rgb(243, 246, 249);
+  border: 1px solid rgb(233, 237, 242);
+}
+
+.label {
+  text-align: center;
+  margin-bottom: 5px;
+  color: rgb(200, 125, 125);
+  width: 100px;
+}
+
+.quantity {
 }
