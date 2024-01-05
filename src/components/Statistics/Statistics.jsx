@@ -1,5 +1,5 @@
 import css from '../Statistics/Statistics.module.css';
-import { getRandomHexColor } from '../../index';
+import { getRandomHexColor } from '../../helpers/getRandomHexColor';
 
 function Statistics({ title, stats }) {
   return (

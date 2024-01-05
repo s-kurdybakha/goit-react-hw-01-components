@@ -21,7 +21,6 @@ function TransactionHistory({ items }) {
           );
         })}
       </tbody>
-      ;
     </table>
   );
 }

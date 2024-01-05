@@ -1,5 +1,5 @@
 import css from '../FriendListItem/FriendListItem.module.css';
-import { getRandomHexColor } from '../../../index';
+import { getRandomHexColor } from '../../../helpers/getRandomHexColor';
 
 function FriendListItem({ friendName, friendAvatar, friendStatus }) {
   return (
